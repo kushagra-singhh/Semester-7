@@ -36,7 +36,7 @@ print("\nSlicing a[1:] : ",a[1:])
 
 x = np.array([1, 2, 3, -1, 5])
 mx = ma.masked_array(x, mask=[0, 0, 0, 1, 0])
-print("\nUsing numpy.ma to mask the 4th element of array \nma.masked_array(x, mask=[0, 0, 0, 1, 0]) : ")
+print("\nUsing numpy.ma to mask 4th element of array\nma.masked_array(x, mask=[0, 0, 0, 1, 0]) :")
 print("Array : ",x)
 print("Masked array : ",mx)
 print("Mean of array : ",x.mean())
